@@ -1,0 +1,27 @@
+# Ignore vendor directory and other generated files
+vendor/
+
+# Composer files
+composer.lock
+
+# Environment
+.env
+
+# Logs and SQL dumps
+*.log
+*.sql
+
+# Uploads and storage backups
+uploads/
+public/uploads/
+storage/backups/
+storage/backup_config.json
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
